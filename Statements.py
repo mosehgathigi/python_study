@@ -68,7 +68,9 @@ if creditScore > 700:
       print('Income requirement not met.')
 else:
    print('Credit score too low.')
-   
+
+
+
     
     
 
