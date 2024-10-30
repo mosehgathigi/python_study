@@ -115,12 +115,10 @@ print(even_count)
 print(f"Total even numbers: {even_count}")
 
 
-# ls1 = [ (“Jay”, 20), (“Mo”, 30), (“Mya”, 32) ]
-# Display the total quantity of the 3 above. 
-
-   
-# ls1 = [("Jay", 20), ("Mo", 30), ("Mya",32)]
-# total = sum(age for name, age in ls1)
-# print(total)
-
-
+# ls1 = [(“Jay”, 20), (“Mo”, 30), (“Mya”, 32)]
+# Display the total quantity of the 3 above.
+ls1 = [("Jay", 20), ("Mo", 30), ("Mya",32)] 
+total = 0
+for i in ls1:   
+    total += i[1]    
+print(total)   
